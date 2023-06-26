@@ -221,7 +221,6 @@ autoSave() {
 }
 ```
 
-![Notebook View](./docs/screenshots/notebooks.gif)
 
 Notebook creation and note filing
 
