@@ -1,0 +1,82 @@
+.new-note {
+  width: 100%;
+  height: 100%;
+
+  margin-left: 160px;
+}
+
+.new-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.new-buttons button {
+  height: 28px;
+  width: 78px;
+  font-size: 14px;
+  font-family: $sans-serif;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 10px;
+
+  background-color: $medium-sea-green;
+  color: $white-smoke;
+  border-radius: 5px;
+  border-style: none;
+}
+
+button#new-cancel {
+  background-color: $white-smoke;
+  color: $dark-slate-gray;
+}
+
+.new-toolbar {
+  display: flex;
+  height: 40px;
+  margin-right: 160px;
+  border-bottom: 1px solid $index-border;
+}
+
+.new-note form {
+  height: 87.5%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-top: 10px;
+  margin-right: 160px;
+}
+
+#new-title {
+  font-size: 28px;
+  font-weight: 200;
+  height: 35px;
+  border: none;
+  color: $note-title;
+}
+
+#new-title::placeholder {
+  color: $note-title;
+  font-weight: 200;
+}
+
+#new-title:focus {
+  outline: none;
+}
+
+#new-body {
+  height: 100%;
+  font-size: 18px;
+  border: none;
+  padding-top: 10px;
+}
+
+#new-body:focus  {
+  outline: none;
+}

@@ -1,0 +1,101 @@
+.sidebar {
+  height: 100%;
+  width: 72px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: $white-smoke;
+  border-right: 1px solid $index-border;
+}
+
+.sidebar img {
+  width: 36px;
+  height: 26px;
+  margin: 15px 17px;
+}
+
+.sidebar-bot {
+  height: 70px;
+  width: 72px;
+  border-top: 1px solid $index-border;
+
+  display: flex;
+  align-items: center;
+}
+
+.circle-button {
+    display:block;
+    width: 37px;
+    height: 37px;
+    background-color: $white-smoke;
+    background-size: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 15px;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-image 0.4s ease;
+}
+.circle-button:hover {
+  background: $medium-sea-green;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.circle-button#selected {
+  border: 1px solid $medium-sea-green;
+}
+
+.circle-button:focus {
+  outline: none;
+}
+
+.circle-button#new-note {
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/new-note.png);
+}
+
+.circle-button#new-note:hover {
+  background-size: 37px;
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/new-note-hover.png);
+}
+
+.circle-button#notes {
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/notes.png);
+}
+
+.circle-button#notes:hover {
+  background-size: 37px;
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/notes-hover.png);
+}
+
+.circle-button#notebooks {
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/notebooks.png);
+}
+
+.circle-button#notebooks:hover {
+  background-size: 37px;
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/notebooks_hover.png);
+}
+
+.circle-button#tags {
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/tags.png);
+}
+
+.circle-button#tags:hover {
+  background-size: 37px;
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495424843/sidebar/tags_hover.png);
+}
+
+.circle-button#signout {
+  background-size: 24px;
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495554805/logout.png);
+}
+
+.circle-button#signout:hover {
+  background-image: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495554806/logout-hover.png);
+}

@@ -1,0 +1,80 @@
+.notes-index {
+  height: 100%;
+  width: 350px;
+  border-right: 1px solid $index-border;
+}
+
+.notes-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 95px;
+
+  border-bottom: 1px solid $index-border;
+}
+
+.notes-header h2 {
+  font-size: 21px;
+  font-family: $sans-serif;
+  font-weight: lighter;
+  padding: 25px 25px 10px 25px;
+
+  letter-spacing: 2.1px;
+  color: $header-gray;
+}
+
+.notes-header h4 {
+  font-size: 16px;
+  padding: 10px 25px;
+  color: $header-notes-count;
+}
+
+.notes-index-scroll {
+  overflow-y: auto;
+  height: 84%;
+}
+
+.notes-index-item {
+  width: auto;
+  height: 115px;
+
+  padding: 3px;
+  cursor: pointer;
+}
+
+.notes-index-item:hover {
+  background-color: $ii-hover;
+}
+
+.notes-index-item:hover .ii-child {
+  color: $white-smoke;
+}
+
+.highlighted {
+  border: 3px solid $ii-border;
+  padding: 0;
+}
+
+.preview-title {
+  font-size: 20px;
+  color: $ii-title;
+  margin: 10px 5px 4px 20px;
+}
+
+.preview-time {
+  color: $ii-body;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-left: 22px;
+  margin-top: 4px;
+}
+
+.preview-body {
+  color: $ii-body;
+  font-size: 14px;
+  line-height: 1.2;
+  height: 49px;
+  overflow: hidden;
+  margin: 9px 3px 5px 20px;
+}

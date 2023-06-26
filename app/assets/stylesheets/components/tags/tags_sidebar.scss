@@ -1,0 +1,44 @@
+.tags-panel {
+  position: absolute;
+  top: 0;
+  left: 73px;
+  width: 360px;
+  height: 100%;
+  margin: 0;
+
+  background-color: $white;
+  border-right: 2px solid $index-border;
+  z-index: 11;
+}
+
+.tags-panel:focus {
+  outline-style: none;
+}
+
+.tags-panel-header {
+  display: flex;
+  justify-content: space-between;
+
+  height: 120px;
+}
+
+.tags-panel-header h3 {
+  font-family: $sans-serif;
+  font-size: 21px;
+  letter-spacing: 2.1px;
+  color: $header-gray;
+
+  width: 155px;
+  height: 20px;
+  margin: 20px;
+}
+
+.tags-panel-header button {
+  height: 25px;
+  width: 25px;
+  background: url(https://res.cloudinary.com/dkuqs8yz1/image/upload/v1495746550/toolbar/new-tag.png);
+  background-size: 25px 25px;
+
+  border: none;
+  margin: 20px 25px;
+}

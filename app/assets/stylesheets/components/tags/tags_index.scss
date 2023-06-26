@@ -1,0 +1,48 @@
+.tags-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+}
+
+.tags-index ul {
+  width: 95%;
+  overflow-y: auto;
+
+  border-top: 1px solid $index-border;
+}
+
+.tags-ii {
+  width: 100px;
+  margin: 10px;
+  background-color: $tag-ii-bg;
+  border-radius: 5px;
+
+  cursor: pointer;
+  font-family: $sans-serif;
+  border: 1px solid $tag-ii-border;
+}
+
+.tags-ii:hover {
+  background-color: $medium-sea-green;
+}
+
+.tags-ii:hover .tag-ii-child {
+  color: $white-smoke;
+}
+
+.tags-ii h4 {
+  font-size: 14px;
+  color: $dark-slate-gray;
+  margin: 5px 10px;
+}
+
+.tagged {
+  background-color: $medium-sea-green;
+}
+
+.tagged .tag-ii-child {
+  color: $white-smoke;
+}
