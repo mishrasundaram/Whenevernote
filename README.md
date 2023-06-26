@@ -118,7 +118,6 @@ Whenevernote's frontend was built using the React framework and Redux cycle. The
 
 After the Notes index component mounts it fetches all notes belonging to the currently signed in user, achieved using associations in the Rails back end. Notes are sorted by last updated time using a selector before being returned to the component. Notes index will asynchronously wait for the return of successful promise then load the most recent note into the detail view.
 
-![Rich Text Editing](./docs/screenshots/rich-text.gif)
 
 Rich Text Editing in the Note Detail view
 
