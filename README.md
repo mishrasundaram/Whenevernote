@@ -1,13 +1,10 @@
 # [Whenevernote](https://whenevernote.herokuapp.com)
 
-![travis status](https://travis-ci.org/tylerreichle/Whenevernote.svg?branch=master)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tylerreichle/Whenevernote/blob/master/LICENSE.md)
+
 
 
 Whenevernote is a full-stack web application inspired by Evernote built using Ruby on Rails and React/Redux with PostgreSQL. Whenevernote allows users to take notes, create to-do lists, and quickly write down their thoughts. These notes can be tagged and stored in notebooks for quick lookup whenever needed.
 
-![Splash Page](./docs/screenshots/splash.gif)
 Splash Page with Session Form component and Webm video background
 
 ## Features
